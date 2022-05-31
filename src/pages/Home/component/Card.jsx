@@ -19,7 +19,7 @@ export function Card({ id, path }) {
 
   useEffect(() => {
     if (cardMatch.length === 2 && showCard) {
-      setTimeout(() => setShowCard(false), 2000);
+      setTimeout(() => setShowCard(false), 500);
     }
   }, [cardMatch]);
 
@@ -31,9 +31,9 @@ export function Card({ id, path }) {
       : path;
 
   return (
-    <div className="cursor-pointer h-32 w-32 rounded-md   bg-white flex justify-center items-center border-double border-4 border-slate-500">
+    <div className="cursor-pointer h-32 w-32 rounded-md bg-white flex justify-center items-center border-double border-4 border-slate-500 md:h-24 md:w-24">
       <img
-        className="object-contain h-28 w-28 object-center"
+        className="object-contain h-28 w-28  md:h-20 md:w-20 object-center"
         src={imgUrl}
         onClick={() => cardClickHandler()}
       />

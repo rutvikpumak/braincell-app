@@ -14,7 +14,7 @@ export function Grid() {
 
   return (
     <div className={`h-full max-h-4xl flex items-center ${showGrid.card && "pointer-events-none"}`}>
-      <div className="grid gap-4 grid-cols-4">
+      <div className="grid gap-4 grid-cols-4 md:grid-cols-3 ">
         {list.map(({ id, path }) => (
           <Card key={id} id={id} path={path} />
         ))}

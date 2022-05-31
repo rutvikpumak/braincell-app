@@ -23,7 +23,7 @@ export function Home() {
   return (
     <div className="container">
       <main className="h-screen flex justify-center items-center flex-col">
-        <h1 className="text-3xl mt-8 font-bold text-center">
+        <h1 className="text-3xl mt-16 font-bold text-center">
           {showGrid.card ? "Remember the cards" : " Match the Patterns"}
         </h1>
         {showGrid.grid ? (
