@@ -28,27 +28,27 @@
       "imageSet": [
         {
           "id": "std1",
-          "path": "course/Library/images/study_material/pen.jpeg"
+          "path": "/assets/course/Library/images/study_material/pen.jpeg"
         },
         {
           "id": "std2",
-          "path": "course/Library/images/study_material/pencil.jpeg"
+          "path": "/assets/course/Library/images/study_material/pencil.jpeg"
         },
         {
           "id": "std3",
-          "path": "course/Library/images/study_material/book.jpeg"
+          "path": "/assets/course/Library/images/study_material/book.jpeg"
         },
         {
           "id": "std4",
-          "path": "course/Library/images/study_material/eraser.png"
+          "path": "/assets/course/Library/images/study_material/eraser.png"
         },
         {
           "id": "std5",
-          "path": "course/Library/images/study_material/sharpner.jpeg"
+          "path": "/assets/course/Library/images/study_material/sharpner.jpeg"
         },
         {
           "id": "std6",
-          "path": "course/Library/images/study_material/notebook.jpeg"
+          "path": "/assets/course/Library/images/study_material/notebook.jpeg"
         }
       ]
     }
