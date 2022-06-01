@@ -8,7 +8,7 @@ export function Grid() {
   useEffect(() => {
     let timerId;
     if (showGrid.grid) {
-      timerId = setTimeout(() => setShowGrid((prev) => ({ ...prev, card: false })), 4000);
+      timerId = setTimeout(() => setShowGrid((prev) => ({ ...prev, card: false })), 10000);
     }
     return () => clearTimeout(timerId);
   }, [counter]);

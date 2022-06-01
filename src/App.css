@@ -1,14 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Sanskrit&display=swap');
+
 :root {
   --drk-blue: #1a202c;
-  --borderGrey: #5e6064;
-  --md-blue: #223251;
-  --lt-drk-blue: #16426e;
-  --text-grey: #a0aec0;
   box-sizing: border-box;
 }
 
 body {
   background: var(--drk-blue);
-
+  font-family: 'Tiro Devanagari Sanskrit', serif;
+  letter-spacing: 1.2px
 }
 
