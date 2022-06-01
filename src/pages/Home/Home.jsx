@@ -4,7 +4,7 @@ import { Grid } from "./component/Grid";
 import "./Home.css";
 
 export function Home() {
-  const [timer, setTimer] = useState(3);
+  const [timer, setTimer] = useState(5);
   const [patternTimer, setPatternTimer] = useState(60);
 
   const { showGrid, setShowGrid, counter, list, score, currentList } = useData();
@@ -42,7 +42,7 @@ export function Home() {
 
   //Resetting timer for new pattern
   useEffect(() => {
-    setTimer(3);
+    setTimer(5);
     setPatternTimer(60);
   }, [counter]);
 
